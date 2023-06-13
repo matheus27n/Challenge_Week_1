@@ -1,13 +1,31 @@
-.Cabecalho{
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+/* color/white */
+
+background-color: #FFFFFF;
+
+}
+.logo{
+position: absolute;
+width: 159px;
+height: 40px;
+left: 72px;
+top: 76px;
 }
 
-#lista{
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+#btn{
+position: relative;
+width: 100px;
+height: 40px;
+left: 72px;
+top: 76px;
+background: #232340;
+border-radius: 8px;
+color: #FFFFFF;
+
 }
