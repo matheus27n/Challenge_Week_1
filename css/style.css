@@ -1,31 +1,349 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+html{
+    width: 1440px;
+    height: 10093px;
+    background: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
 body{
-position: absolute;
-width: 1440px;
-height: 1024px;
-left: 0px;
-top: 0px;
-
-/* color/white */
-
-background-color: #FFFFFF;
-
-}
-.logo{
-position: absolute;
-width: 159px;
-height: 40px;
-left: 72px;
-top: 76px;
+    padding : 0;
+    margin : 0;
+    font-family: 'SF Pro Display';
 }
 
-#btn{
-position: relative;
-width: 100px;
-height: 40px;
-left: 72px;
-top: 76px;
-background: #232340;
-border-radius: 8px;
-color: #FFFFFF;
+/*HEADER*/
+#hero-header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin : 64px;
+}
+
+#burguer-icon{
+    display : none;
+}
+
+#menu-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 64px;
+    width: 100%;
+    align-items: center; ;
+}
+
+#item-list{
+    position: absolute;
+    width: 392px;
+    height: 24px;
+    left: 480px;
+    top: 70px;
+}
+
+#item-list li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#about{
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5468E7;
+}
+#work{
+    width: 42px;
+    height: 24px;
+    left: 637px;
+    top: 84px;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #8B8B8B;
 
 }
+#services{
+    width: 69px;
+    height: 24px;
+    left: 743px;
+    top: 84px;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ADADAD;
+}
+#jobs{
+    width: 40px;
+    height: 24px;
+    left: 876px;
+    top: 84px;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+/*SPAN*/
+#notification{
+    position: absolute;
+    top: calc(0% - 25px/2);    
+    font-size: 15px;
+    text-align: center;    
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+    border-radius: 100%;
+    padding: 1px 6px;
+}
+#notification a{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    
+}
+
+#logo-ligth-mode{
+    position: absolute;
+    width: 159px;
+    height: 40px;
+    left: 72px;
+    top: 76px;  
+}
+
+#button-contact-Us{
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 1188px;
+    top: 64px;
+    background: #232340;
+    border-radius: 8px;
+}
+#button-contact-Us a{
+    position: absolute;
+    height: 24px;
+    left: 24.44%;
+    right: 24.44%;
+    top: calc(50% - 24px/2);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#hero-content{
+    position: absolute;
+    width: 467px;
+    height: 548px;
+    left: 135px;
+    top: 238px;
+}
+#hero-content h1{
+    position: absolute;
+    height: 300px;
+    left: 0%;
+    right: 0%;
+    top: calc(37% - 300px/2 - 68px);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: #232340;
+}
+#hero-content p{
+    position: absolute;
+    left: 0%;
+    right: 21.41%;
+    top: 62.98%;
+    bottom: 0%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+#btn-recent-work{
+    position: absolute;
+    left: 0%;
+    right: 60%;
+    top: 89%;
+    bottom: 0%;
+    background: #5468E7;
+    border-radius: 8px;
+    border: none;
+}
+
+#btn-recent-work p{
+    position: absolute;
+    height: 24px;
+    left: 22.22%;
+    right: 20.56%;
+    top: calc(22% - 24px/2);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;   
+    
+}
+
+#logo-hero-img{
+    position: absolute;
+    width: 924px;
+    height: 660px;
+    left: 406px;
+    top: 100px;
+}
+
+#bg-hero-img{
+    position: absolute;
+    width: 570px;
+    height: 722px;
+    left: 735px;
+    top: 100px;
+    background: #C897E4;
+}
+#hero-mobile{
+    display: none;
+}
+
+/*FOOTER*/
+
+
+
+/*Responsivo*/
+@media(max-width: 376px){
+    html{
+        position: relative;
+        width: 375px;
+        height: 2557px;        
+        background: #FFFFFF;
+    }
+    #hero-header{
+        position: relative;
+        width: 300px;
+        height: 128px;
+        right: 20px;
+        
+    }
+    #logo-ligth-mode{
+        position: absolute;
+        width: 127.2px;
+        height: 32px;
+        left: 0px;
+        top: 0px;        
+    }
+    #menu-item{
+        display: none;
+    }
+    #burguer-icon{
+        display: block;
+        position: absolute;
+        width: 32px;
+        height: 12px;
+        left: 370px;
+        top: 15px;
+    }
+    #button-contact-Us{
+        display: none;
+    }
+
+    #hero-content{
+        position: absolute;
+        width: 311px;
+        height: 356px;
+        left: 32px;
+        top: 60px;
+    }
+
+    #hero-content h1{
+        position: absolute;
+        height: 168px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 168px/2 - 54px);
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        color: #232340;
+    }
+    #hero-content p{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 69.57%;
+        bottom: 0%;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+    }
+
+    #btn-recent-work{
+        position: relative;
+        width: 160px;
+        height: 56px;
+        left: 0px;
+        top: 370px;
+    }
+
+    #btn-recent-work p{
+        position: absolute;
+        height: 22px;
+        left: 21.56%;
+        right: 21.56%;
+        top: calc(25% - 22px/2);
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #logo-hero-img{
+        position: absolute;
+        width: 520px;
+        height: 316px;
+        left: -70px;
+        top: 450px;
+        
+    }
+    #bg-hero-img{
+        position: absolute;
+        width: 250px;
+        height: 400px;
+        left: 161px;
+        top: 400px;
+    }
+}
+
