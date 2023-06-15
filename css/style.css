@@ -11,6 +11,7 @@ body{
     padding : 0;
     margin : 0;
     font-family: 'SF Pro Display';
+    font-style: normal;
 }
 
 /*HEADER*/
@@ -226,7 +227,6 @@ body{
     height: 722px;
     left: 580px;
     top: 50px;
-    background: #C897E4;
 }
 
 /*FOOTER*/
@@ -238,21 +238,22 @@ body{
     html{
         position: relative;
         width: 375px;
-        height: 2557px;        
+        height: 10093px;       
         background: #FFFFFF;
     }
     #hero-header{
-        position: relative;
-        width: 300px;
-        height: 128px;
-        right: 20px;
+        position: absolute;
+        width: 375px;
+        height: 812px;
+        left: 0px;
+        top: 0px;
         
     }
     #logo-ligth-mode{
         position: absolute;
         width: 127.2px;
         height: 32px;
-        left: 0px;
+        left: -32px;
         top: 0px;        
     }
     #menu-item{
@@ -263,7 +264,7 @@ body{
         position: absolute;
         width: 32px;
         height: 12px;
-        left: 370px;
+        left: 250px;
         top: 15px;
     }
     #button-contact-Us{
@@ -274,7 +275,7 @@ body{
         position: absolute;
         width: 311px;
         height: 356px;
-        left: 32px;
+        left: -32px;
         top: 60px;
     }
 
@@ -283,7 +284,7 @@ body{
         height: 168px;
         left: 0%;
         right: 0%;
-        top: calc(50% - 168px/2 - 54px);
+        top: calc(35% - 168px/2 - 54px);
         font-family: 'SF Pro Display';
         font-style: normal;
         font-weight: 700;
@@ -296,7 +297,7 @@ body{
         position: absolute;
         left: 0%;
         right: 0%;
-        top: 69.57%;
+        top: 55.57%;
         bottom: 0%;
         font-family: 'SF Pro Display';
         font-style: normal;
@@ -311,7 +312,8 @@ body{
         width: 160px;
         height: 56px;
         left: 0px;
-        top: 370px;
+        top: 330px;
+        z-index: 1;
     }
 
     #btn-recent-work p{
@@ -330,18 +332,18 @@ body{
     }
     #logo-hero-img{
         position: absolute;
-        width: 520px;
-        height: 316px;
-        left: -70px;
-        top: 450px;
+        width: 400px;
+        height: 300px;
+        left: -45px;
+        top: 400px;
         
     }
     #bg-hero-img{
         position: absolute;
-        width: 250px;
-        height: 400px;
-        left: 161px;
-        top: 400px;
+        width: 200px;
+        height: 335px;
+        left: 143px;
+        top: 355px;
     }
 }
 
