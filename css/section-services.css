@@ -1,0 +1,129 @@
+#section-3-services{
+    position: absolute;
+    width: 100%;
+    height: 3232px;
+    left: 0px;
+    top: 3800px;
+    background-color: blue;
+}
+
+#title-and-arrow-2{
+    position: absolute;
+    width: 868px;
+    height: 252px;
+    left: 135px;
+    top: 125px;
+    background-color: red;
+}
+
+#logo-symbol-2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+#headline-and-tag-services{
+    position: absolute;
+    width: 668px;
+    height: 252px;
+    left: 200px;
+    top: 0px;
+    background-color: yellow;
+}
+#headline-and-tag-services h2{
+    position: relative;
+    display: flex;
+    top: -35px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+    color: #232340;
+}
+#tag-3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5468E7;
+
+}
+#tag-3 a{
+    color: #5468EF;
+    margin-right: 20px;
+}
+#tag-4 {
+    position: absolute;
+    width: 467px;
+    height: 64px;
+    left: 0x;
+    top: 170px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+#button-contact-Us-2{
+    position: absolute;
+    width: 166px;
+    height: 64px;
+    left: 1139px;
+    top: 200px;
+    background: #5468E7;
+    border-radius: 8px;
+    border: none
+}
+#button-contact-Us-2 a{
+    position: absolute;
+    height: 24px;
+    left: 24.44%;
+    right: 24.44%;
+    top: calc(50% - 24px/2);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#featured-work{
+    position: absolute;
+    width: 100%;
+    height: 913px;
+    left: 0px;
+    top: 290px;
+}
+
+#featured-work-content{
+    position: absolute;
+    width: 467px;
+    /*    width: 100%;*/
+    height: 288px;
+    left: 135px;
+    top: 554px;
+    background: pink;
+}
+
+#featured-work-content{
+    position: relative;
+    width: 25%;
+    height: 17%;
+    left: 135px;
+    top: -700px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    background-color: white;
+}
