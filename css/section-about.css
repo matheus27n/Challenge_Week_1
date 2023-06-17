@@ -185,7 +185,7 @@
 }
 
 /*media query pag-2*/
-@media(max-width: 376px){
+@media(max-width: 768px){
     #section-1-about{
         position: absolute;
         width: 375px;

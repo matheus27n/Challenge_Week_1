@@ -13,24 +13,30 @@
     <title>Folio</title>
 </head>
 <body>
-    <header id="nav-bar">
-        <img id="logo-ligth-mode" src="../img/light-mode.png" alt="logo">
-        <img id="burguer-icon" src="../img/burger icon.png">
-        <nav id="menu-item">
-            <ul id="item-list">
-                <li><a id="about" href="#section-1-about">About</a></li>
-                <li><a id="work"href="#section-2-work">Work</a></li>
-                <li><a id="services" href="#section-3-services">Services</a></li>
-                <li><a id="jobs" href="#section-4-jobs">Jobs</a><span id="notification"><a>2</a></span></a></li>
-            </ul>
-         </nav>
-         <button id="button-contact-Us"><a>Contact Us</a></button> 
-    </header>
+    <div class="container"><!--LARGURA MAXIMA-->
+        <header><!--HTML SEMANTICO, CABECALHO/NAVEGAÇÃO-->
+            <nav><!--BARRA NEVEGAÇÃO-->
+                <div class="nav-container">
+                    <img id="logo-principal" src="../img/light-mode.png" alt="logo-principal">
+                    <img id="menu-hamburguer" src="../img/burger icon.png" alt="menu-hamburguer">
+                    <ul><!--lista de navegação-->
+                        <li><a href="#section-1-about">About Us</a></li>
+                        <li><a href="#section-2-work">Work</a></li>
+                        <li><a href="#section-3-services">Services</a></li>
+                        <li><a href="#section-4-jobs">Jobs</a><span>2</span></li>
+                    </ul>
+                    <button id="btn-contact-us">Contact Us</button>
+                </div>
+            </nav>
+        </header>
+    </div>
     </main>
         <section id="hero-content">
-            <h1>Stand Out from The Crowd.</h1>
-            <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
-            <button id="btn-recent-work"><p>Recent Work</p></button>
+            <div class="banner-hero">
+                <h1>Stand Out from The Crowd.</h1>
+                <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+                <button id="btn-recent-work"><p>Recent Work</p></button>
+            </div>
             <aside>
                     <img id="bg-hero-img" src="../img/bg.jpg" alt="logo">
                     <img id="logo-hero-img" src="../img/hero img.png" alt="logo">
