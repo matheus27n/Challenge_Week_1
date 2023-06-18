@@ -1,45 +1,34 @@
 #section-3-services{
     position: absolute;
     width: 100%;
-    height: 3232px;
-    left: 0px;
-    top: 3800px;
-    background-color: blue;
+    height: 211rem;
+    margin: 237.5rem 0rem ;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, #EDE5F0 100%);
 }
 
 #title-and-arrow-2{
-    position: absolute;
-    width: 868px;
+    width: 58%;
     height: 252px;
-    left: 135px;
-    top: 125px;
-    background-color: red;
+    margin:7.813rem 8.438rem;
 }
 
 #logo-symbol-2{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
+    width: 25px;
+    height: auto;
+    margin: 0;
 }
 
 #headline-and-tag-services{
-    position: absolute;
-    width: 668px;
-    height: 252px;
-    left: 200px;
-    top: 0px;
-    background-color: yellow;
+    width: 75%;
+    height: 100%;
+    margin: -2.9rem 13.7rem;
 }
 #headline-and-tag-services h2{
-    position: relative;
-    display: flex;
-    top: -35px;
+    margin: 1.5rem auto;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 5.25rem;
     line-height: 80px;
     letter-spacing: -0.5px;
     color: #232340;
@@ -57,11 +46,9 @@
     margin-right: 20px;
 }
 #tag-4 {
-    position: absolute;
-    width: 467px;
-    height: 64px;
-    left: 0x;
-    top: 170px;
+    width: 70%;
+    height: 30%;
+    margin: 0rem 0rem;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -71,59 +58,107 @@
 }
 
 #button-contact-Us-2{
-    position: absolute;
-    width: 166px;
-    height: 64px;
-    left: 1139px;
-    top: 200px;
+    width: 10.375rem;
+    height: 4rem;
+    float: right;
+    margin: -21rem 8.438rem;
     background: #5468E7;
     border-radius: 8px;
-    border: none
+    border: none;
 }
+
 #button-contact-Us-2 a{
-    position: absolute;
-    height: 24px;
-    left: 24.44%;
-    right: 24.44%;
-    top: calc(50% - 24px/2);
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 16.5px;
+    font-size: 18px;
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
 }
+
 #featured-work{
-    position: absolute;
     width: 100%;
-    height: 913px;
-    left: 0px;
-    top: 290px;
+    height: 30%;
+    margin: -15rem 0rem;
 }
 
 #featured-work-content{
-    position: absolute;
-    width: 467px;
-    /*    width: 100%;*/
-    height: 288px;
-    left: 135px;
-    top: 554px;
-    background: pink;
+    width: 40%;
+    height: 30%;
+    margin: -23rem 8rem;
 }
 
-#featured-work-content{
-    position: relative;
-    width: 25%;
-    height: 17vh;
-    left: 135px;
-    top: -700px;
+#featured-work-content h2{
+    width: 100%;
+    height: 35%;
+    margin : 0;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 48px;
     line-height: 48px;
     letter-spacing: -0.4px;
     color: #000000;
-    background-color: white;
+}
+
+#featured-work-content p{
+    width: 60%;
+    height: 65%;
+    margin : 2rem 0;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+#button-feature{
+    width: 10.375rem;
+    height: 2.5rem;
+    float: left;
+    margin: -22rem 8.438rem;
+    background: #908CFF;
+    border-radius: 20px;
+    border: none;
+} 
+
+#button-feature a{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#featured-work-img{
+    width: 100%;
+    height: auto;
+    margin: -15rem auto;
+}
+
+#featured-work-img-2{
+    width: 4rem;
+    height: auto;
+    float: right;
+    margin: -15rem 17.938rem;
+}
+
+#featured-view-button{
+    width: 4rem;
+    height: auto;
+    margin: 0rem 30rem;
+}
+
+
+
+
+
+
+#portifolio-secitons{
+    width: 100%;
+    height: 70%;
 }

@@ -92,9 +92,11 @@
     height: 528px;
     left: 135px;    
     top: 540px;
-
-    
+    background: #232340;
+    z-index: 0;
+    text-decoration: none;    
 }
+
 #nav-calendar li{   
     display: inline-block;      
     margin-bottom: 102px;
@@ -104,6 +106,12 @@
     font-size: 18px;
     line-height: 24px;
     color: #8B8B8B;
+}
+#nav-calendar li a:after{
+    clear: both;
+    content: "";
+    display: block;
+    color: black;
 }
 #about-content{
     position: absolute;
@@ -185,10 +193,10 @@
 }
 
 /*media query pag-2*/
-@media(max-width: 768px){
+@media(max-width: 376px){
     #section-1-about{
         position: absolute;
-        width: 375px;
+        width: 100%;
         height: 1681px;
         left: 0px;
         top: 876px;
