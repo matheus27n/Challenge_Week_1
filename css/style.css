@@ -403,40 +403,6 @@ color: #ADADAD;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* Responsivo */
   @media (max-width: 376px) {
     html {
@@ -566,7 +532,7 @@ color: #ADADAD;
     }
     
 }
-/*
+
 @media only screen and (max-width: 1418px) {
   .banner-hero h1{
     font-size: 4.8rem;
@@ -591,7 +557,7 @@ color: #ADADAD;
     font-size: 4.1rem;
     line-height: 4.7rem;
   }
-}*/
+}
 @media only screen and (max-width: 1124px) {
   .banner-hero p{
     font-size: 0.9rem;

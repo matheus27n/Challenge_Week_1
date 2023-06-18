@@ -154,11 +154,189 @@
 }
 
 
-
-
-
-
 #portifolio-secitons{
     width: 100%;
-    height: 70%;
+    height: 61%;
+    margin: 2rem 0 0 0;
+}
+
+#portifolio-card-1{ 
+    width: 50%;
+    height: auto;
+    margin: 16% 0 0 45%;
+}
+#portifolio-card-1 h2{
+    margin: 0%;
+    font-family: 'SF Pro Display';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #232340;
+}
+.color-bg{
+    width: 50%;
+    height: auto;
+    margin: 2% 0 0 35%;
+}
+.main-foto{
+    width: 100%;
+    margin: -70% auto 0% -9%;
+}
+.arrow{
+    width: 8%;
+    height: auto;
+    margin: -13% 0% 18% -10%;
+}
+#portifolio-card-1 p{
+    width: 49%;
+    height:16%;
+    margin: -10% 0 0 35%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+/*PORTIFOLIO SECTION 2*/
+#portifolio-card-2{ 
+    width: 62%;
+    height: auto;
+    margin: -18% 0 0 -5%;
+}
+#portifolio-card-2 h2{
+    margin: auto;
+    font-family: 'SF Pro Display';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #232340;
+}
+.color-bg-2{
+    width: 50%;
+    height: auto;
+    margin: 4% 0 0 27%;
+}
+.main-foto-2{
+    width: 75%;
+    height: auto;
+    margin: -75% 0% 15% 14%;
+}
+.arrow-2{
+    width: 8%;
+    height: auto;
+    margin: -13% 0% 18% -16%;
+}
+#portifolio-card-2 p{
+    width: 49%;
+    height:16%;
+    margin: -10% 0 0 28%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+/*PORTIFOLIO SECTION 3*/
+#portifolio-card-3{ 
+    width: 50%;
+    height: auto;
+    margin: 43% 0 0 45%;
+}
+.h2-card-3{
+    margin: -40.7% 0 0 45%;
+    height: auto;
+    width: 25%;
+    font-family: 'SF Pro Display';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #232340;
+    
+}
+.color-bg-3{
+    width: 29%;
+    height: auto;
+    margin: 2% 0 0 50%;
+}
+.main-foto-3{
+    width: 45%;
+    height: auto;
+    margin: -80% 0% -1% 42%;
+}
+.arrow-3{
+    width: 4%;
+    height: auto;
+    margin: -8% 0% 18% 77%;
+}
+.p-card-3{
+    width: 25%;
+    height:auto;
+    margin: -13% 0 0 50%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+/*PORTIFOLIO SECTION 4*/
+#portifolio-card-4{ 
+    width: 50%;
+    height: auto;
+    margin: 43% 0 0 5%;
+
+}
+.h2-card-4{
+    margin: -65% 0 0 12%;
+    height: auto;
+    width: 25%;
+    font-family: 'SF Pro Display';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: #232340;
+    
+}
+.color-bg-4{
+    width: 25%;
+    height: auto;
+    margin: 3% 0 0 16%;
+}
+.main-foto-4{
+    width: 25%;
+    height: auto;
+    margin: -28% 0% 7% -25%;
+}
+.arrow-4{
+    width: 4%;
+    height: auto;
+    margin: -4% 0% 4% -2.5%;
+}
+.p-card-4{
+    width: 25%;
+    height:auto;
+    margin: 0% 0 0 17%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
 }
