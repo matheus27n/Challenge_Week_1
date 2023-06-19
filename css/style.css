@@ -23,54 +23,39 @@ html{
   }
 
   header{
-    position: relative;
-    top: 0;
-    padding: 0;
-    height: auto;
     width: 100%;
+    height: 2rem;
   }
   nav{
     position: fixed;
-    top: 0;
     width: 100%;
-    height: 14%;
+    height: auto;
+    margin: 0 auto;
     z-index: 1;
     background-color: white;
-    border-bottom:1px solid #CCC;
-  }
-
-  nav:after{
-    clear: both;
-    content: "";
-    display: block;
-  }
-
+    }
   .nav-container{
     max-width: 90%;
     margin: 1.4rem auto;
     height: 64px;
   }
-
   #logo-principal{
-     width: auto;
-     height: 45px;
+     width: 15%;
+     height: auto;
      margin: 0.7rem auto;
-     margin-left: 0.8rem;
   }
-
   #menu-hamburguer{
     display: none;
   }
 
   .nav-container ul{
-    width: 57%;
-    height: 1.5rem;
+    width: 35%;
+    height:auto;
     margin: -3rem auto;
     text-align: center;
     background-color: white;
 
 }
-
   .nav-container li {
     display: inline;
     list-style: none;
@@ -88,8 +73,6 @@ html{
     text-decoration: none;
     color: #666;
     transition: .5s;
-  
-
   }
 
   .nav-container li a:hover{
@@ -135,22 +118,24 @@ html{
   
   /* Página Home */
   #hero-content {
-    position: absolute;
     width: 100%;
-    height: 59rem;
-    margin: 8.3rem auto;
+    height: auto;
+    margin: 0% 0% 0% 0%; 
 
 
   }
   .banner-hero{
     width: 35%;
-    height: 50%;
-    margin: 0rem 10rem;
+    height: auto;
+    padding: auto;
+    margin: auto 10%;
   }
 
   .banner-hero h1{
     width: 100%;
-    height: 60%;
+    height: auto;
+    padding: auto;
+    margin: 30% 0% 0% 0%;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -163,7 +148,7 @@ html{
   .banner-hero p{
     width: 65%;
     height: 15%;
-    margin: -3rem 0rem;
+    margin-top: 4rem;
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
@@ -173,9 +158,8 @@ html{
   }
 
   #btn-recent-work{
-    width: 170px;
-    height: 12%;
-    margin: 5rem auto;
+    width: 45%;
+    height: 5rem;
     background: #5468E7;
     border-radius: 8px;
     font-family: 'SF Pro Display';
@@ -204,7 +188,7 @@ html{
     width:60%;
     height: auto;
     margin-left: 25%;
-    margin-top: auto;
+    margin-top: -6.5%;
 
   }
 
@@ -407,7 +391,7 @@ color: #ADADAD;
   @media (max-width: 376px) {
     html {
       position: relative;
-      width: 100%;
+      width: 376px;
       height: auto;
     }
 
@@ -425,15 +409,18 @@ color: #ADADAD;
 
     nav{
       position: fixed;
-      width: 100%;
-      height: auto;
+      width: 375px;
+      height: 128px;
+      background-color: white;
+      z-index: 2;
     }
 
     #logo-principal{
-      width: auto;
-      height: 40px;
-      margin: 0.8rem auto;
-      margin-left: 20px;
+      position: absolute;
+      width: 150.2px;
+      height: auto;
+      left: 32px;
+      top: 45px;
 
     }
 
@@ -443,10 +430,12 @@ color: #ADADAD;
 
     #menu-hamburguer{
       display: block;
-      float : right;
-      width: 2.5rem;
+      position: absolute;
+      width: 32px;
       height: auto;
-      margin: 1.5rem 2rem;
+      left: 290px;
+      top: 67px;
+      
 
     }
     #btn-contact-us{
@@ -456,49 +445,62 @@ color: #ADADAD;
     /*PAG-HOME-MOBILE*/
 
     #hero-content {
-      width: 100%;
-      height: 50rem;
-    }
+      position: absolute;
+      width: 375px;
+      height: 812px;
+      left: 0px;
+      top: 0px;
+      }
     
     .banner-hero{
-      width: 80%;
-      height: 45%;
-      margin: -2rem 2rem;
+      position: absolute;
+      width: 290px;
+      height: 356px;
+      top: 140px;  
     }
   
     .banner-hero h1{
-      width: 100%;
-      height: 50%;
+      position: absolute;
+      height: 168px;
+      width: 290px;
+      top: -85px;
+      
       font-family: 'SF Pro Display';
       font-style: normal;
       font-weight: 700;
-      font-size: 4rem;
-      line-height: 3.5rem;
-      letter-spacing: -1px;
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
       color: #232340;
 
     }
   
     .banner-hero p{
-      width: 80%;
-      height: 15%;
-      margin: -2rem 0rem;
+      position: absolute;
+      width: auto;
+      left: 0%;
+      right: 0%;
+      bottom: 0%;
+      top: 120px;
       font-family: 'SF Pro Display';
       font-style: normal;
       font-weight: 400;
-      font-size: 1rem;
-      line-height: 25px;
+      font-size: 16px;
+      line-height: 28px;
       color: #606060;
+      
     }
   
     #btn-recent-work{
-      width: 170px;
-      height: 15%;
-      margin: 4.55rem auto;
+      position: absolute;
+      width: 160px;
+      height: 56px;
+      top: 300px;
       background: #5468E7;
       border-radius: 8px;
       font-family: 'SF Pro Display';
       border : none;
+      z-index: 1;
     }
   
     #btn-recent-work a{
@@ -513,80 +515,30 @@ color: #ADADAD;
     }
     
     #bg-hero-img{
-      width:92%;
-      height: 50%;
-      margin-left: 8%;
-      margin-top: 29rem;
-  
+      position: absolute;
+      width: 210px;
+      height: 370px;
+      left: 70px;
+      top: 470.77px;
+      background: #C897E4;
+      z-index: 0;
     }
   
     #logo-hero-img{
       display: none;
+
     }  
     
     #hero-logo{
-      width:auto;
-      height: 65%;
-      margin-left: -12rem;
-      margin-top: -30rem;
+      display: block;
+      position: absolute;
+      width: 375px;
+      height: auto;
+      left: 0px;
+      top: 330px;
+      
     }
     
 }
 
-@media only screen and (max-width: 1418px) {
-  .banner-hero h1{
-    font-size: 4.8rem;
-    line-height: 5.2rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .banner-hero h1{
-    font-size: 4.4rem;
-    line-height: 5rem;
-  }
-}
-@media only screen and (max-width: 915px) {
-  .banner-hero h1{
-    font-size: 4.4rem;
-    line-height:4rem;
-  }
-}
-@media only screen and (max-width: 850px){
-  .banner-hero h1{
-    font-size: 4.1rem;
-    line-height: 4.7rem;
-  }
-}
-@media only screen and (max-width: 1124px) {
-  .banner-hero p{
-    font-size: 0.9rem;
-    line-height: 1.3rem;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .banner-hero p{
-    font-size: 0.9rem;
-    line-height: 1.6rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .banner-hero p{
-    font-size: 0.8rem;
-    line-height: 1.5rem;
-  }
-}
-@media only screen and (max-width: 1010px) {
-  .banner-hero p{
-    font-size: 0.7rem;
-    line-height: 1.4rem;
-  }
-}
-@media only screen and (max-width: 899px){
-  .banner-hero p{
-    font-size: 0.9rem;
-    line-height: 1.3rem;
-  }
-}
 
