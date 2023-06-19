@@ -31,7 +31,6 @@
     line-height: 80px;
     letter-spacing: -0.5px;
     color: #232340;
-    background-color: red;
 }
 #article-title-and-arrow p{
     font-style: normal;
@@ -57,16 +56,97 @@
     height: auto;
     margin: 30% 0% 0% 5%;
 }
-
+#services{
+    display: none;
+}
 @media(max-width: 376px){
     #section-2-work{
         position: absolute;
         width: 375px;
         height: 2419px;
         left: 0px;
-        top: 2550px;
+        top: 2567px;
         background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
-        background-color: blue;
+    }
+    #logo-symbol-1{
+        display: none;
+    }
+    #title-and-arrow{
+        position: absolute;
+        width: 227px;
+        height: 304px;
+        left: 32px;
+        top: 128px;
+    }
+    #article-title-and-arrow h2{
+        position: absolute;
+        width: 227px;
+        height: 192px;
+        left: 0px;
+        top: 0px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        color: #232340;
+    }
+    #article-title-and-arrow p{
+        position: absolute;
+        height: 18px;
+        left: 1px;
+        top: -15px;
+
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #5468E7;
+    }
+
+    #arrow-2{
+        position: absolute;
+        width: 108px;
+        height: 46px;
+        left: -210px;
+        top: 280px;
+    }
+
+    #services-card{
+        display: none;
+    }
+    #services{
+        display: block;
+    }
+    #service-1{
+        position: absolute;
+        width: 311px;
+        height: auto;
+        left: 32px;
+        top: 380px;
+    }
+    #service-2{
+        position: absolute;
+        width: 311px;
+        height: auto;
+        left: 32px;
+        top: 560px;
+    }
+    #service-3{
+        position: absolute;
+        width: 311px;
+        height: auto;
+        left: 32px;
+        top: 730px;
+    }
+    #service-4{
+        position: absolute;
+        width: 311px;
+        height: auto;
+        left: 32px;
+        top: 910px;
     }
 
 }
