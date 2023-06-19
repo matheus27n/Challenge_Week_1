@@ -230,3 +230,97 @@
     height: auto;
     margin: auto 15%;
 }
+
+@media(max-width: 376px){
+    #section-4-jobs{
+        width: 376px;
+        height: 1170px;
+        left: 0px;
+        top: 7170px;
+        background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+     }
+    #logo-jobs{
+        display: none;
+    }
+    #scroll-down{
+        display: none;
+    }
+    #jobs-content{
+        position: absolute;
+        width: 311px;
+        height: 198px;
+        left: -13rem;
+        top: 0x;
+        }
+
+    #jobs-content h1{
+        position: absolute;
+        width: 227px;
+        height: 48px;
+        left: -6rem;
+        top: 5px;        
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        color: #232340;
+    }
+    #tag-5{
+        position: absolute;
+        left: -6.5rem;
+        width: 12rem;
+        top: 0px;
+        font-size: 1.2rem;
+        color: #5468E7;
+    }
+    #tag-6{
+        position: absolute;
+        width: 311px;
+        height: 84px;
+        left: -6rem;
+        top: 100px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #job-card{
+        position: absolute;
+        width: 370px;
+        height: auto;
+        left: -50rem;
+        top: 990px;        
+    }
+    #job-card span{
+        position: absolute;
+        left: 66.56%;
+        right: 25.72%;  
+        padding: 5px 8px;
+        border-radius: 100%;
+        background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);  
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #job-card h2{
+        width: 15rem;
+        height: 6rem;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        color: #232340;
+    }
+    #job-card-3 h2{
+        color: #FFFFFF;
+    }
+}

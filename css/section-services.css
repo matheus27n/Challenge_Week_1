@@ -3,8 +3,8 @@
     width: 100%;
     height: auto;
     margin: 100rem 0rem ;
-    /*background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, #EDE5F0 100%);*/
-    background: red;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, #EDE5F0 100%);
+
 
 }
 
@@ -58,7 +58,9 @@
     line-height: 32px;
     color: #606060;
 }
-
+#img-1{
+    display: none;
+}
 #button-contact-Us-2{
     width: 10.375rem;
     height: 4rem;
@@ -183,6 +185,7 @@
     height: auto;
     margin: 2% 0 0 35%;
 }
+
 .main-foto{
     width: 100%;
     margin: -70% auto 0% -9%;
@@ -224,7 +227,7 @@
 .color-bg-2{
     width: 50%;
     height: auto;
-    margin: 4% 0 0 27%;
+    margin: -5rem 0 0 27%;
 }
 .main-foto-2{
     width: 75%;
@@ -347,9 +350,293 @@
     #section-3-services{
         position: absolute;
         width: 375px;
-        height: 2419px;
+        height: 3350px;
         left: 0px;
         top: 2200px;
+        background-color: #FFFFFF;
         }
+    #logo-symbol-2{
+        display: none;
+    }
+    #featured-work-img{
+        display: none;
+    }
+    #featured-work-img-2{
+        display: none;
+    }
+    #featured-view-button{
+        display: none;
+    }
+    #button-contact-Us-2{
+        position: absolute;
+        width: 313px;
+        height: 46px;  
+        left: -7rem;
+        top: 3618px;
 
+    }
+    #title-and-arrow-2{
+        position: absolute;
+        width: 255px;
+        height: 290px;
+        left: -100px;
+    }
+    #headline-and-tag-services{
+        position: absolute;
+        width: 255px;
+        height: auto;
+        top: 45px;
+        left: -220px;
+    }
+    #headline-and-tag-services h2{
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        color: #232340
+    }
+
+    #tag-3 p{
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #5468E7;
+    
+    }
+    #tag-3 a{
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #5468E7;
+    }
+    #tag-4 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        width: 16rem;
+        color: #606060;
+    }
+
+    #portifolio-card-1{
+        position: absolute;
+        width: 312.11px;
+        height: 350.56px;
+        left: -140px;
+        top: 402px;
+        background-color:#ffce79;
+        border-radius: 8px;
+    }
+
+    #portifolio-card-1 h2{
+        position: absolute;
+        top: 23rem;
+        color: #232340;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        color: #232340;
+
+    }
+    #portifolio-card-1 .arrow{
+        position: absolute;
+        width: 15%;
+        height: auto;
+        margin: -4% 0% 4% -2.5%;
+    }
+    .color-bg{
+        position: absolute;
+        width: 311px;
+        height: 355.56px;
+        left: -7rem;
+        top: 590px;      
+    }
+    .color-bg-2{
+        position: absolute;
+        width: 311px;
+        height: 355.56px;
+        left: -85.11px;
+        top: 0rem;
+    }
+    #img-1{
+        display: block;
+        position: absolute;
+        width: 85%;
+        height: auto;
+        top: 28rem;
+        left: 1.9rem;
+        z-index: 1;
+    }
+    #button-feature{
+        position: absolute;
+        width: 119px;
+        height: 29px;
+        top: 70rem;
+        left: -5rem;
+        z-index: 1;
+    }
+    .main-foto{
+        position: absolute;
+        width: 140%;
+        height: auto;
+        margin: 38rem 0% -1% -20%;
+    }
+    .main-foto-2{
+        position: absolute;
+        width: 170%;
+        height: auto;
+        top: 9rem;
+        left: -9rem;
+    }
+    .main-foto-3{
+        position: absolute;
+        width: 120%;
+        height: auto;
+        top: 159rem;
+        left: -12rem;
+    }
+    .main-foto-4{
+        position: absolute;
+        width: 85%;
+        height: auto;
+        top: 180rem;
+        left: 7rem;
+        background-color:#ffce79;
+    }
+    .arrow{
+        position: absolute;
+        top: 33.5rem;
+        width: 6%;
+        height: auto;
+        left: 0.5rem;
+    }
+    #portifolio-card-1 p{
+        position: absolute;
+        left: -6.7rem;
+        top: 27.5rem;
+        width: 15rem;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+    }
+
+    #portifolio-card-2{ 
+        position: absolute;
+        width: 312.11px;
+        height: 583.56px;
+        left: 40px;
+        top: 1800px;        
+    }
+    #portifolio-card-2 h2{
+        position: absolute;
+        top: -19rem;
+        left: 1rem;
+        color: #232340;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        color: #232340;
+    }
+    .arrow-2{
+        display: block;
+        position: absolute;
+        top: -6.5rem;
+        width: 15%;
+        height: auto;
+        left: 4rem;
+    }
+    #portifolio-card-2 p{
+        position: absolute;
+        left: -4.5rem;
+        top: -14.5rem;
+        width: 15rem;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+    }
+
+    #portifolio-card-3{
+        display: none;
+        position: absolute;
+        width: 313px;
+        height: 583.56px;
+        left: -9rem;
+        top: 1654px;        
+    }
+
+    .p-card-3{
+        position: absolute;
+        left: -10.3rem;
+        top: 129.5rem;
+        width: 15rem;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+
+    }
+    .color-bg-3{
+        position: absolute;
+        width: 311px;
+        height: 355.56px;
+        left: -10rem;
+        top: 139rem;      
+    }
+    .color-bg-4{
+        display: none;
+        position: absolute;
+        width: 311px;
+        height: 355.56px;
+        left: -2rem;
+        top: 172rem;  
+    }
+    .arrow-3{
+        display: block;
+        position: absolute;
+        left: -16.5rem;
+        top: 136.5rem;
+        width: 14%;
+        height: auto;
+    }
+
+    #portifolio-card-4{
+        display: none;
+     
+    }
+    .p-card-4{
+        position: absolute;
+        left: -2.5rem;
+        top: 162rem;
+        width: 15rem;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+    }
+    #featured-work-content{
+        display: none;
+    }
 }
